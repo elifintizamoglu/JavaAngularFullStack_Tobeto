@@ -18,7 +18,7 @@ public class ProductManager implements IProductService {
         if (customer.isOfficer()) {
             price = product.getPrice() * 0.80;
         }
-        price = iBankService.convertRate(new CurrencyRate(1,100));
+        price = iBankService.convertRate(new CurrencyRate(price,1));
         System.out.println(price);
     }
 }

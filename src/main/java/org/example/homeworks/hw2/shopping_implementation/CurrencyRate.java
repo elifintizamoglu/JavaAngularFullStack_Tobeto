@@ -1,6 +1,7 @@
 package org.example.homeworks.hw2.shopping_implementation;
 
 public class CurrencyRate {
+    // price ve currency gönderiyor, biz de price'ın o currency'deki karşılığını yolluyoruz
     private double price;
     private int currency;
 

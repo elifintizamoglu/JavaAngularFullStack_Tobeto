@@ -1,5 +1,6 @@
 package org.example.homeworks.hw2.shopping_implementation;
 
+// veri tabanı nesnesi
 public class Product implements IEntity {
     private int id;
     private String name;
